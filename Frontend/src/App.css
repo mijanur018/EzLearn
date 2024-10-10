@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: Arial, sans-serif;
+  }
+  
+  .main{
+    padding: 50px 0;
+    /* padding-left: 1px;
+    padding-right: 10px; */
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    background-image: url('../../assets/lan.jpeg');
+    height: "100vh";
+    margin-top: "-70px";
+    font-size: "50px";
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+    @media (max-width: 768px) {
+
+      max-width: 100%;
+      /* Allow the card to stretch to full width on smaller screens */
+    }
+  }
+
+.smain{
+  padding: 50px 0;
+  /* padding-left: 1px;
+  padding-right: 10px; */
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-image: url('./assets/lans.jpg');
+  height: "100vh";
+  margin-top: "-70px";
+  font-size: "50px";
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  overflow: hidden;
+  @media (max-width: 768px) {
+
+    max-width: 100%;
+    /* Allow the card to stretch to full width on smaller screens */
+  }
+}
+
+
+  .common-btn {
+    background-color: #1d3dc5;
+    width: 92%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  
+    &:hover {
+      background-color: #5f357e;
+    }
+  
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }

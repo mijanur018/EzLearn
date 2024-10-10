@@ -1,0 +1,110 @@
+.main {
+  /* background-color: #f5f5f5; */
+  padding: 110px 0;
+  /* padding-left: 1px;
+  padding-right: 10px; */
+  text-align: center;
+  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-image: url('../../assets/lan.jpeg');
+  height: "100vh";
+  margin-top: "-70px";
+  font-size: "50px";
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  overflow: hidden;
+  @media (max-width: 768px) {
+
+    max-width: 100%;
+    /* Allow the card to stretch to full width on smaller screens */
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    color: rgb(80, 78, 78);
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+      font-weight: 400;
+      color: rgb(102, 95, 95);
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #858484;
+      margin-bottom: 40px;
+
+      @media (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+
+    button {
+      padding: 12px 24px;
+    }
+
+    .common-btn {
+      background-color: #1d3dc5;
+      width: 30%;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+      &:hover {
+        background-color: #1017e1;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 9px;
+      }
+    }
+  }
+
+  .imgbc {
+    width: 100%;
+    /* Ensures the image takes up the full width of its container */
+    height: auto;
+    /* Maintains the aspect ratio of the image */
+    max-width: 100%;
+    /* Prevents the image from exceeding the container's width */
+    border-radius: 6px;
+    /* Optional: Adds rounded corners */
+    display: block;
+
+    img {
+      /* mix-blend-mode: multiply; */
+      border-radius: 250px;
+      @media (max-width: 768px) {
+
+        max-width: 100%;
+        /* Allow the card to stretch to full width on smaller screens */
+      }
+    }
+  }
+}

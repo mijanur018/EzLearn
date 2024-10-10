@@ -1,0 +1,21 @@
+.users {
+    width: 550px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 20px auto;
+    min-height: 80vh;
+    border: solid gray 1px;
+    margin-left: 10px;
+
+    h1{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tab{
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+  }
