@@ -2,7 +2,7 @@ const express = require('express');
 const userroute = require('./routes/UserRoute');
 const adminroute = require('./routes/AdminRoute')
 const courseroute = require('./routes/CourseRoute');
-const connectDB = require('./db');
+const connectDb = require('./db');
 
 const env = require('dotenv');
 const cors = require('cors')
@@ -25,10 +25,13 @@ app.use('/admin', adminroute)
 app.use('/course', courseroute)
 
 
-connectDB().then(() => {
-    app.listen(port, () => {
-        console.log(`server is running on ${port}`);
-    });
-});
-
+// connectDB().then(() => {
+//     app.listen(port, () => {
+//         console.log(`server is running on ${port}`);
+//     });
+// });
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+    connectDb();
+  });
 
