@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonial.css";
+import "./Testimonial.css";
 import { FaCode } from "react-icons/fa";
 import { FaDesktop } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
