@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./home.css";
+import "./Home.css";
 import Testimonials from "../../Components/Testimonials/Testimonial";
 import heroel from "../../assets/book.avif"
 
